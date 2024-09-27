@@ -5,12 +5,12 @@ This project explores the hypothesis that Fashion Nova, a fast fashion company, 
 The scripts used to clean and analyze the data were written exclusively in Python, utilizing the seaborn, pandas, matplotlib, and nltk libraries to perform sentiment analysis and graph data. Furthermore, Google Sheets and Excel were also used to transfer tabular data and create more figures. The platform used was Windows, but the Python notebooks that contain the scripts may run on any operating system that has Python and the respective dependencies downloaded.
 
 ## Documentation Map
-# DATA
+### DATA
 This folder contains the initial data sets pulled from Kaggle, namely
 * [amazon_clothing_reviews.csv](http://www.kaggle.com/datasets/john88999/women-reviews-on-clothes-on-amazon)
 * [fashionnova_reviews.csv](http://www.kaggle.com/datasets/syedafroz6284/fashion-nova-reviews)
 
-# OUTPUT
+### OUTPUT
 This folder contains any materials outputted as a result of data analysis. There were multiple figures created in the notebooks from the SCRIPTS folder:
 * Sentiment of Quality.png
 * Sentiment of Shipping.png
@@ -19,11 +19,11 @@ This folder contains any materials outputted as a result of data analysis. There
 
 Additionally, any tabular data outputted was consolidated into Sentiment Breakfowns.xlsx, and the final data sets after all preprocessing and sentiment analysis are called amazon_final.csv and fashion_nova_final.csv.
 
-# SCRIPTS
+### SCRIPTS
 * exploratory.ipynb: the Python notebook used in exploratory data analysis to briefly describe the data sets
 * analysis.ipynb: the Python notebook that performed the data analysis, starting from cleaning the data, preprocessing it, and running the sentiment analysis.
 
-# LICENSE.md
+### LICENSE.md
 This is the respective license for this project.
 
 ## Reproduction Instructions
