@@ -8,7 +8,9 @@ The scripts used to clean and analyze the data were written exclusively in Pytho
 ### DATA
 This folder contains the initial data sets pulled from Kaggle, namely
 * [amazon_clothing_reviews.csv](http://www.kaggle.com/datasets/john88999/women-reviews-on-clothes-on-amazon)
-* [fashionnova_reviews.csv](http://www.kaggle.com/datasets/syedafroz6284/fashion-nova-reviews)
+* [fashionnova_reviews.csv](http://www.kaggle.com/datasets/syedafroz6284/fashion-nova-reviews).
+
+There is also a Data Appendix file, which follows [this framework](https://www.projecttier.org/tier-protocol/protocol-4-0/root/data/analysisdata/data-appendixfile/) to outline and explain the process behind the variables derived in the [Analysis Data File](https://github.com/amanzanares410/DS4002-Project1/blob/main/SCRIPTS/analysis.ipynb). 
 
 ### OUTPUT
 This folder contains any materials outputted as a result of data analysis. There were multiple figures created in the notebooks from the SCRIPTS folder:
