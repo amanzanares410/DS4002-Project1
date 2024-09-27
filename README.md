@@ -24,14 +24,15 @@ Additionally, any tabular data outputted was consolidated into Sentiment Breakfo
 * analysis.ipynb: the Python notebook that performed the data analysis, starting from cleaning the data, preprocessing it, and running the sentiment analysis.
 
 # LICENSE.md
+This is the respective license for this project.
 
 ## Reproduction Instructions
 1. Open the analysis.ipynb Python notebook from the SCRIPTS folder. This file has all of the necessary information to clean, process, and perform sentiment analysis on the original data sets. For this project, the .ipynb file may be opened in [Google Colab](https://colab.research.google.com/) using a GitHub link (File > Open Notebook > GitHub > [analysis.ipynb](https://github.com/amanzanares410/DS4002-Project1/blob/main/SCRIPTS/analysis.ipynb)) or manually downloading and uploading the file into Google Colab. 
 
-Alternatively, this can be run locally in any IDE (Visual Studio Code, IntelliJ, etc.).
+Alternatively, this can be run locally in any IDE (Visual Studio Code, IntelliJ, etc.). This operates under the assumption that the user already has a version of [Python](https://www.python.org/downloads/) downloaded onto their operating system.
 
 1. Download the analysis.ipynb from the SCRIPTS folder.
 2. Open analysis.ipynb in the IDE of choice. 
-3. Run the notebook. In VS Code, there is a "Run All" button that appears in the top row of the tab where the notebook opens. The first 'pip' command listed in the notebook should download all dependencies automatically (with permission given to the kernel if there is a pop-up window), but if not, open a new terminal by clicking the three dots in the top window > Terminal > New Terminal, and type in the recommended 'pip' installation commands as suggested by the IDE.
+3. Run the notebook. In VS Code, there is a "Run All" button that appears in the top row of the tab where the notebook opens. The first 'pip' command listed in the notebook should download all dependencies automatically (with permission given to the kernel if there is a pop-up window), but if not, open a new terminal by clicking the three dots in the top window > Terminal > New Terminal, and type in the recommended 'pip' installation commands as suggested by the IDE. Any other modules that are not on a given user's local machine may be installed with the command "pip install {module_name}", which may happen with the nltk module.
 
 Both of these methods will produce all of the figures as seen in the OUTPUT folder. The spreadsheet entited "Sentiment Breakdowns" was created by manually copying and pasting tabular data directly outputted by the notebook. 
