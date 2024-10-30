@@ -19,7 +19,7 @@ This folder contains any materials outputted as a result of data analysis. There
 * Sentiment of Both.png
 * Side-by-side sentiment analysis.png
 
-Additionally, any tabular data outputted was consolidated into Sentiment Breakfowns.xlsx, and the final data sets after all preprocessing and sentiment analysis are called amazon_final.csv and fashion_nova_final.csv.
+Additionally, any tabular data outputted was consolidated into Sentiment Breakdowns.xlsx, and the final data sets after all preprocessing and sentiment analysis are called amazon_final.csv and fashion_nova_final.csv.
 
 ### SCRIPTS
 * exploratory.ipynb: the Python notebook used in exploratory data analysis to briefly describe the data sets
